@@ -15,10 +15,5 @@ def main():
         # interested in it)
         sample, timestamp = inlet.pull_sample()
         print(timestamp, *sample,sep=',')
-
-
-
-
-
 if __name__ == '__main__':
     main()
